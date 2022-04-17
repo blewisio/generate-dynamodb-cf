@@ -1,0 +1,21 @@
+{
+  "name": "generate-dynamodb-cf",
+  "version": "1.0.0",
+  "description": "Stub DynamoDB table definitions for CloudFormation via command-line",
+  "license": "ISC",
+  "bin": {
+    "generate-dynamodb-cf": "index.js"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
